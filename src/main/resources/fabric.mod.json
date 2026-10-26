@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "simpletpa",
+  "version": "${version}",
+  "name": "Simple TPA",
+  "description": "/tpa, /tpahere, /tpaccept with confirmation GUI for both players. Server-side only.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": { "main": ["com.example.tpa.TpaMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
